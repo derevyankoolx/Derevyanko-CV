@@ -1,0 +1,19 @@
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    margin-bottom: 75px;
+    overflow: hidden;
+}
+.portfolio-item img {
+    transition: 1s; 
+    display: block; 
+
+}
+.portfolio-item img:hover {
+    transform: scale(1.3);
+}
+.zoomIn {
+    overflow: hidden;
+}
